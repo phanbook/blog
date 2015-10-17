@@ -34,6 +34,6 @@
             <p><a href="http://phanbook.com/legal">Legal</a></p>
           </div>
         </div>
-        <p style="color: #ccc; margin-top: 25px; font-size: 10px; text-align: right;">Last buid</p>
+        <p style="color: #ccc; margin-top: 25px; font-size: 10px; text-align: right;">Powered by Phanbook</p>
       </div>
 </footer>

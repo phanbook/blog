@@ -2,8 +2,8 @@
 {% block title %}{{ page is defined ? page.getTitle() : name }}{% endblock %}
 {% block content %}
     {% if page is defined %}
-        <div class="container help">
-            <div id="single-content" class="single-content">
+        <div class="inner-container">
+            <div class="single-content">
                 <h1>{{ page.getTitle()}}</h1>
                 <div class="item-content">
                     {{ page.getContent() }}

@@ -39,6 +39,13 @@
                 </div>
             </div>
         </div>
+        <div class="disqus media-padded">
+            {% if this.config.disqus is defined %}
+                {{partial('partials/disqus')}}
+            {% else %}
+                {# To do add comment form#}
+            {% endif %}
+        </div>
     </div>
 </article>
     {% else %}

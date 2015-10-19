@@ -485,7 +485,7 @@ a[href] .post-tag:hover,a[href] .postTag:hover{
 
 i.blog-icon{
 	display:inline-block;
-	background-image:url("images/blog-sprite.svg")
+	background-image:url("/images/blog-sprite.svg")
 }
 
 i.blog-icon.logo{

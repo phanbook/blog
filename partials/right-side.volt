@@ -29,7 +29,21 @@
 
     <p>The blog is curated by Phanbook. Find out more here.</p>
     </section>
-    <section>
+    {% if hotPosts is defined %}
+    <section id="hot-posts">
+        <div class="-row">
+            <div class="-col6"><h3 class="h6">Hot Posts</h3></div>
+            <div class="">
+                <ul class="widget">
+                    {% for hot in hotPosts %}
+                        <li>{{ link_to(hot.getType() ~ '/' ~ hot.getId() ~ '/' ~ hot.getSlug(), hot.getTitle())}}</li>
+                    {% endfor %}
+                </ul>
+            </div>
+        </div><!-- hot-network-questions -->
+    </section>
+    {% endif %}
+    <section id="try-phanbook" >
     <div class="-row">
         <a href="https://phanbook.com" class="phanbook-love widget">
         <h3>Want a blog like this? <span class="highlight">Try Phanbook</span></h3>

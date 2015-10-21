@@ -1575,3 +1575,90 @@ code{
 #site-logo {
 	margin-top: 10px;
 }
+
+#hot-posts h3{
+    font-size: 20px;
+    line-height: 2.4rem;
+    margin: 0;
+    padding: 10px 0;
+    font-weight: bold;
+    text-transform: none;
+}
+.widget {
+    float: left;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.widget li {
+    border-top: 1px dotted #ddd;
+    font-size: 14px;
+    margin: 0;
+    padding: 10px 10px 10px 0 !important;
+    line-height: 1.4;
+}
+.widget li a{
+    color: #0062ae;
+}
+.widget li a:hover{
+    color: #cc7500;
+}
+a.phanbook-love {
+    background: #5ba4e5 none repeat scroll 0 0;
+    color: #fff;
+    display: block;
+    text-align: center;
+    margin-bottom: 50px;
+    padding: 25px 30px 30px;
+    text-decoration: none;
+}
+.phanbook-love h3{
+    font-weight: bold;
+    color: #fff;
+    font-size: 20px;
+    text-transform: none;
+}
+.phanbook-love .highlight::before, .phanbook-love .highlight::after {
+    content: "—";
+    display: inline-block;
+    font-weight: 200;
+    margin: 0 5px;
+}
+.phanbook-love .highlight {
+    color: #fff;
+    display: block;
+    background: none;
+    border: none;
+    box-shadow: none;
+    margin-bottom: 0;
+
+}
+.phanbook-love h4 {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 14px;
+    line-height: 1.4em;
+    font-weight: normal;
+}
+.phanbook-love-button {
+    background: #e25440 none repeat scroll 0 0;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 80px -30px -30px;
+    padding: 15px 10px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.phanbook-love:hover .phanbook-love-button{
+    background: #242628 none repeat scroll 0 0;
+    -moz-transition: all 900ms linear;
+    -webkit-transition: all 900ms linear;
+    -m-transition: all 900ms linear;
+    -os-transition: all 900ms linear;
+
+}
+
+
+
+
+

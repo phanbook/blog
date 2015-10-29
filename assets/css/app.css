@@ -565,11 +565,11 @@ i.blog-icon.location{
 }
 
 header{
-	padding:25px;
+	padding:20px;
 	padding-bottom:45px;
 	background:#F48024;
 	color:#fff;
-	height:136px
+	height:110px
 }
 
 header .site-avatar{
@@ -1576,14 +1576,6 @@ code{
 	margin-top: 10px;
 }
 
-#hot-posts h3{
-    font-size: 20px;
-    line-height: 2.4rem;
-    margin: 0;
-    padding: 10px 0;
-    font-weight: bold;
-    text-transform: none;
-}
 .widget {
     float: left;
     list-style: none;

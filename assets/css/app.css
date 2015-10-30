@@ -1294,8 +1294,32 @@ footer .about a:link{
 	overflow:auto
 }
 
-code{
-	font-family:'Bitstream Vera Sans Mono','Courier', monospace
+code, tt {
+    background: #f7fafb none repeat scroll 0 0;
+    border: 1px solid #e3edf3;
+    border-radius: 2px;
+    font-size: 0.85em;
+    padding: 1px 3px;
+    white-space: pre-wrap;
+}
+pre {
+    background: #f7fafb none repeat scroll 0 0;
+    border: 1px solid #e3edf3;
+    border-radius: 3px;
+    box-sizing: border-box;
+    font-size: 0.9em;
+    margin: 1.6em 0;
+    overflow: auto;
+    padding: 10px;
+    white-space: pre;
+    width: 100%;
+}
+pre code, tt {
+    background: transparent none repeat scroll 0 0;
+    border: medium none;
+    font-size: inherit;
+    padding: 0;
+    white-space: pre-wrap;
 }
 
 .highlight .c{

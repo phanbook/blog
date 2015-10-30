@@ -34,10 +34,12 @@
                         <div class="clearfix"></div>
 
                         <div class="entry excerpt">
-                            {{ this.markdown.text(post.getContent()) | truncate(300)}}
+                            {{ this.markdown.text(post.getContent()|e) | truncate(300)}}
                         </div>
-                          
-                        <a href="/{{ postLink }}" class="read-more">Read more <i class="blog-icon read-more"></i></a>
+
+                        <a href="/{{ postLink }}" class="read-more">
+                            Read more <i class="blog-icon read-more"></i>
+                        </a>
                     </div>
                 </article>
             {% endif %}

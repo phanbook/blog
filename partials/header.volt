@@ -7,14 +7,13 @@
         </div>
         <nav class="-col8">
         {% set menus = [
-            'Home' : 'hot',
             'Company news' : 'company',
             'Speakers' : 'speakers',
             'Questions' : 'questions',
             'About' : 'about'
         ]%}
+        <a href="/" class="{% if tab == 'hot' %}active{% endif %}">{{t('Home')}}</a>
         {% for value, key in menus %}
-
             <a href="{{key}}" class="{% if key == tab %}active{% endif %}">{{t(value)}}</a>
         {% endfor %}
         </nav>

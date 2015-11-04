@@ -1,9 +1,9 @@
 //Adding google analytic
 window.onload = function() {
-    googleAnalytic();
+    googleAnalytics();
 };
 
-function googleAnalytic() {
+function googleAnalytics() {
     if (document.location.hostname != 'localhost'){
         (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
             (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),

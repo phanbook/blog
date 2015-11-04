@@ -46,5 +46,7 @@
 
             {{ partial('partials/footer')}}
         </div>
+        <script src="{{this.phanbook.assetContent('assets/js/app.js')}}"></script>
+        {{ this.assets.outputJs() }}
     </body>
 </html>

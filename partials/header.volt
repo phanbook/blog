@@ -14,7 +14,7 @@
         ]%}
         <a href="/" class="{% if tab == 'hot' %}active{% endif %}">{{t('Home')}}</a>
         {% for value, key in menus %}
-            <a href="{{key}}" class="{% if key == tab %}active{% endif %}">{{t(value)}}</a>
+            <a href="/{{key}}" class="{% if key == tab %}active{% endif %}">{{t(value)}}</a>
         {% endfor %}
         </nav>
       </div>

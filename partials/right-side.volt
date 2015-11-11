@@ -45,7 +45,7 @@
     {% endif %}
     <section id="try-phanbook" >
     <div class="-row">
-        <a href="https://phanbook.com" class="phanbook-love widget">
+        <a href="http://phanbook.com" class="phanbook-love widget">
         <h3>Want a blog like this? <span class="highlight">Try Phanbook</span></h3>
         <h4>The internet's most simple, most focused publishing platform</h4>
         <div class="phanbook-love-button">Test it out in seconds</div>

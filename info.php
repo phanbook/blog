@@ -19,7 +19,7 @@ return new \Phalcon\Config([
     /**
      * Code detect theme
      */
-    'code' => 'alpha',
+    'code' => 'blog',
     /**
      * The description is also displayed on the Appearance page.
      */

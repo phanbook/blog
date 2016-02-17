@@ -1,16 +1,24 @@
 {% extends 'layouts/layout.volt' %}
 {% block title %}{{ post.getTitle() ? post.getTitle() : 'Phanbook'}}{% endblock %}
+
 {% block content %}
+    <style>
+        header {
+            position: absolute;
+            background: none;
+            width: 100%;
+        }
+    </style>
     {% if post is defined %}
         <article class="post full-post">
-    {% if  1 == 1 %}
-    <div class="hero no-image">
-    {% else %}
-    <div class="hero" style="background: linear-gradient(
-      rgba(37, 43, 51, 0.35),
-      rgba(37, 43, 51, 0.35)
-    ), url('{{ 'page.hero' }}'); background-size: cover;">
-    {% endif %}
+        {% if  post.getThumbnail() is not empty %}
+        <div class="hero" style="background: linear-gradient(
+          rgba(37, 43, 51, 0.35),
+          rgba(37, 43, 51, 0.35)
+        ), url('{{ post.getThumbnail()  }}'); background-size: cover;">
+        {% else %}
+        <div class="hero no-image">
+        {% endif %}
         <div class="inner-container media-padded">
             <h1 class="h2">{{ post.getTitle() }}</h1>
             <div class="author-container">

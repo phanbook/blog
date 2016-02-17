@@ -2,8 +2,8 @@
     <div class="posts">
         {% for post in posts %}
             {% set postLink = post.getType() ~ '/' ~ post.getId() ~ '/' ~ post.getSlug() %}
-            {% if img is defined %}
-
+            {% if post.getThumbnail() is not empty %}
+                {% set imgUrl = getUrlThumbnail(post.getThumbnail()) %}
             {% else %}
                 {% set imgUrl = this.phanbook.assetContent('assets/images/blog.jpg') %}
             {% endif %}

@@ -19,11 +19,11 @@ return new \Phalcon\Config([
     /**
      * Code detect theme
      */
-    'code' => 'alpha',
+    'code' => 'blog',
     /**
      * The description is also displayed on the Appearance page.
      */
-    'description' => 'Core theme for frontend',
+    'description' => 'Core theme for blog',
     /**
      * The type key indicates the type of extension,
      * e.g. plugin, theme or profile. For themes this should always be set to "themes".

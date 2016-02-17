@@ -3,7 +3,8 @@
         {% for post in posts %}
             {% set postLink = post.getType() ~ '/' ~ post.getId() ~ '/' ~ post.getSlug() %}
             {% if post.getThumbnail() is not empty %}
-                {% set imgUrl = getUrlThumbnail(post.getThumbnail()) %}
+                {#% set imgUrl = getUrlThumbnail(post.getThumbnail()) %#}
+                {% set imgUrl = post.getThumbnail() %}
             {% else %}
                 {% set imgUrl = this.phanbook.assetContent('assets/images/blog.jpg') %}
             {% endif %}

@@ -27,7 +27,7 @@
         <link rel="author" href="{{publicUrl}}/@{{userPosts.getInforUser()}}">
         <link rel="publisher" href="{{ publicUrl }}">
     {%- endif -%}
-    <link rel="stylesheet" type="text/css" href="{{this.phanbook.assetContent('assets/css/app.css')}}" />
+    <link rel="stylesheet" type="text/css" href="{{assets('css/app.css')}}" />
 
     <script type="text/javascript">
         var baseUri     = '{{ this.config.application.baseUri }}';
@@ -46,7 +46,7 @@
 
             {{ partial('partials/footer')}}
         </div>
-        <script src="{{this.phanbook.assetContent('assets/js/app.js')}}"></script>
+        <script src="{{assets('js/app.js')}}"></script>
         {{ this.assets.outputJs() }}
     </body>
 </html>

@@ -6,7 +6,7 @@
                 {#% set imgUrl = getUrlThumbnail(post.getThumbnail()) %#}
                 {% set imgUrl = post.getThumbnail() %}
             {% else %}
-                {% set imgUrl = this.phanbook.assetContent('assets/images/blog.jpg') %}
+                {% set imgUrl = assets('images/blog.jpg') %}
             {% endif %}
             <article class="preview-post post">
                 <div class="hero-container">

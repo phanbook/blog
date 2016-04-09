@@ -46,6 +46,9 @@
                     </div>
                 </div>
             </div>
+            {% if isAdmin() %}
+            <a href="/backend/posts/edit/{{post.id}}">Edit post</a>
+            {% endif %}
         </div>
         <div class="disqus media-padded">
             {% if this.config.disqus is defined %}

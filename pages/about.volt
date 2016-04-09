@@ -6,7 +6,7 @@
             <div id="single-content" class="single-content">
                 <h1>{{ page.getTitle()}}</h1>
                 <div class="item-content">
-                    {{ this.markdown.text(post.getContent()) }}
+                    {{ this.markdown.text(page.getContent()) }}
                 </div>
             </div>
         </div>

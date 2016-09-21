@@ -48,5 +48,6 @@
         </div>
         <script src="{{assets('js/app.js')}}"></script>
         {{ this.assets.outputJs() }}
+        {% block scripts%}{% endblock %}
     </body>
 </html>
